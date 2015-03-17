@@ -1,0 +1,22 @@
+{
+  "name": "node-parse-commands",
+  "version": "0.0.1",
+  "description": "Wrapper to call Parse CLI commands from a node module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juxtinteractive/node-parse-commands"
+  },
+  "author": "Jesse Fulton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juxtinteractive/node0parse-commands/issues"
+  },
+  "homepage": "https://github.com/juxtinteractive/node-parse-commands",
+  "dependencies": {
+    "superspawn": "0.1.0"
+  }
+}
