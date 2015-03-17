@@ -36,3 +36,19 @@ p.list(function(err, output) {
 	return process.exit(0);
 });
 ```
+
+
+### Available Commands
+
+- `cliversion([args,] callback)`
+- `add([args,] callback)`
+- `default([args,] callback)`
+- `deploy([args,] callback)`
+- `develop([args,] callback)`
+- `jssdk([args,] callback)`
+- `list([args,] callback)`
+- `log([args,] callback)`
+- `new([args,] callback)`
+- `releases([args,] callback)`
+- `rollback([args,] callback)`
+- `symbols([args,] callback)`
