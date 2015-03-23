@@ -1,1 +1,1 @@
-require('./lib/parse.js');
+module.exports = require('./lib/parse.js');
