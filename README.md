@@ -3,11 +3,6 @@ node-parse-commands
 
 Run Parse CLI methods from the a node module.
 
-__*Warning*__: this currently requires you have the Parse CLI installed locally.
-
-
-
-
 
 Installation
 ------------
