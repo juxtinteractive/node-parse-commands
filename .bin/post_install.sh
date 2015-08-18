@@ -7,10 +7,10 @@ fi
 echo "Fetching latest version ..."
 case `uname` in
   "Linux" )
-    curl --progress-bar -Lo /tmp/parse.tmp https://parse.com/downloads/cloud_code/cli/parse-linux/latest
+    curl --progress-bar --compressed -Lo /tmp/parse.tmp https://parse.com/downloads/cloud_code/cli/parse-linux/latest
     ;;
   "Darwin" )
-    curl --progress-bar -Lo /tmp/parse.tmp https://parse.com/downloads/cloud_code/cli/parse-osx/latest
+    curl --progress-bar --compressed -Lo /tmp/parse.tmp https://parse.com/downloads/cloud_code/cli/parse-osx/latest
     ;;
 esac
 echo "Installing ..."
